@@ -5,3 +5,4 @@ or                                    the container and run command in it like u
 docker exce -it cont-name /bin/sh     runing ls command and env command to check enviroment variable}
 
 #some cont has not the bash so used the sh command
+#(exist) used this command to exist form cont and it not stop the cont
