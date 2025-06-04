@@ -1,1 +1,18 @@
-its means the app convert into the image and images into container
+dokerzing its means the app convert into the image and images into container
+docker file is the file that tell who we dockersing our app
+(Dockerfile) this is the name of file
+docker build -t name-u-give 'to run the dockerfile and run these command where dockerfile place'
+go to dockerhub inside the images section to get more info
+there are insturetion in the docker file that tell docker who image is cretaed some imp are
+FROM {in the section we give the base image of our application or a website.base image means if we have nodejs
+      app it means node is the base image means node lazmi ha nodejs code ko run krny k liye .like html website
+        need nginx or appach as a base image}
+WORKDIR  {this is insturetion where all the ommands and copy are created means other insturetion are used init
+          like copy,run,CMD etc}
+COPY     { used to copy the file and folder form the host into the file}
+RUN      {used to run the command of linux in this section,multiple run command}
+CMD      {after create the ontainer which ommand is requied to run the application are write in CMD means 
+          there is one CMD command in docker}
+EXPOSE   {this is used to define the port}
+ENV      {this is used to define the envirement like password username od datebase are define in it}
+
