@@ -1,0 +1,10 @@
+step:1 create two cont and bind this two ports with vm
+
+docker run -p80:3306 images-name (run image and create the connection with the cont and the vm.80 is vm 
+                                  port and 3306 is docker cont default port.bind the host port with the
+                                  cont port.reuest of host vm forward to cont with this)
+#with same host port of vm we cannot bind the two container 
+#we need two diff port of vm to bind the cont
+#cont may have same port its not create the issue
+
+
