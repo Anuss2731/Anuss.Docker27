@@ -1,1 +1,4 @@
-
+docker network ls                  'list of network'
+docker netwrok create network-name 'create the network '
+--network netwok-name               'while runing image used this command inside it.cont goes into that network'
+-e                                  'is used to set the enverment varible'
