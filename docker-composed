@@ -1,2 +1,12 @@
+docker composed file end with .yuml
+we write the ymul code in viralcode then store in linux.
+
 docker compsed is the file of yuml that is used to run command in the file .means u write the all the command
-in the file that linux run that command it is easy to run and easy to rerun
+in the file that linux run that command it is easy to run and easy to rerun.it is help full when we run multiple
+container.we write the multiple container in one yuml file.
+
+by creating the .yuml file of docker by default its create the netwrok itself.it include all the container in
+one netwrok that are present in the network.
+
+docker composed -f file-name up -d   (to run the docker compsed file)
+docker composed -f file-name down   (to deleted the container in this file then used this )
