@@ -1,1 +1,18 @@
-docker run
+#image create the container / container create the images / images share not cont with other
+
+#all the avilable image are in the "dockerhub"
+docker pull image-name                 'to pull the images'
+docker pull image-name:version         'pull image with special version'
+docker run image-name                  'to run the images'
+docker images                          'list of iamges'
+docker run --name cont-name image-name 'u give the container name '
+
+docker run -d images-name  'run image in the deattached mode means image run in the background used to run
+multiple ontainer'
+
+docker run -it image-nmae 'interacted mode means when u pull the image of ubuntu with 'it' it used as a linux 
+linux mahine means machine run conatein and u run commands of linux in container'
+
+docker ps                   'list of container'
+docker start/stop cont-name 'to start or stop the cont' 
+
