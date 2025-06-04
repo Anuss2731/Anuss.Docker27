@@ -3,3 +3,6 @@ data store if u stop the container it del all the data in it.Volume is used to s
 stop
 docker volume create the separate space in the host vm/we can give one volume to diff cont
 
+docker run -it -v /user/anuss/root/volcume:/root/test/volcume ubuntu 
+{-v define the cretae volcume and afterthat there is the path of host machine where data is store after (:)
+there is path of continer where conatiner data store}
