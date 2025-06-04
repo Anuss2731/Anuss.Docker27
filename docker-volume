@@ -2,9 +2,15 @@ when we stop the ontainer in the host machine the data init will be del means if
 data store if u stop the container it del all the data in it.Volume is used to store the data after container 
 stop
 docker volume create the separate space in the host vm/we can give one volume to diff cont
-we also write this code in the yuml 
+we also write this code in the yuml doker composed file
 
 docker run -it -v /user/anuss/root/volcume:/root/test/volcume ubuntu 
 {-v define the cretae volcume and afterthat there is the path of host machine where data is store after (:)
 there is path of continer where conatiner data store}
 
+docker volume ls 'list of volume'
+docker create volume volume-name 'create the volume,there is default location where these volume create 
+                                  that are /var/lib/docker/volumes'
+docker rm volume volume-name     'del the volume'
+docker run -v volume-name:cont-path 'its attach the existing volume with the cont,if not exist then it create
+                                     with the name that u give'
