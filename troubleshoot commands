@@ -1,1 +1,7 @@
-docker run
+docker logs cont-ID 'to check the logs of container'
+
+docker exce -it cont-name /bin/bash { with this command u run the ommand inside the container u entry into 
+or                                    the container and run command in it like u check the list of file by 
+docker exce -it cont-name /bin/sh     runing ls command and env command to check enviroment variable}
+
+#some cont has not the bash so used the sh command
