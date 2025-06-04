@@ -1,4 +1,5 @@
-#image create the container / container create the images / images share not cont with other
+#image create the container / container create the images / images share not cont with other/enter into
+container
 
 #all the avilable image are in the "dockerhub"
 docker pull image-name                 'to pull the images'
@@ -15,4 +16,11 @@ linux mahine means machine run conatein and u run commands of linux in container
 
 docker ps                   'list of container'
 docker start/stop cont-name 'to start or stop the cont' 
+
+docker exec -it cont-ID /bin/bash 'this two command is used to entry into the cont like ubuntu image create
+container u want to entry in the ubuntu machine then used this command we used ubuntu as a linux and run 
+ommand in it 2nd ommand is used when first not work'
+or
+docker exec -it cont-ID /bin/sh   
+(exist) is used to come out of the cont
 
